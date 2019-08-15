@@ -1,6 +1,6 @@
 <?php
 $nameErr = $emailErr = "";
-$name = $email = $gender = $comment = $website = "";
+$name = $email = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (empty($_POST["name"])) {
