@@ -1,13 +1,79 @@
-<!DOCTYPE css>
-<style>
+/*
+Reset
+*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ @import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
 
-    body {
-            color: whitesmoke;background-color: rgb(20,30,30);font-family: 'Karla', sans-serif;
+/*
+navigation
+*/
+
+.main-nav ol {
+     text-align: center
+}
+
+ .main-nav ol li {
+    text-transform: uppercase;
+    display:inline-block;
+    padding: 2px 8px;
+    width: 200px; height: 2em;
+    text-decoration: none;
+    color: rgb(128,0,32);
+    background-color: antiquewhite;
+    font-weight: 600;
+    
+}
+
+.main-nav ol li:hover {
+    color: white
+
+}
+
+
+/*
+Layout
+*/
+
+article {
+    line-height: 1.5em;
+    margin: 1em 20px;
+}
+
+header,
+h1,h2,h3,h4
+nav ol {
+    padding-left: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+color
+*/
+
+ body {
+        color: whitesmoke;background-color: rgb(20,30,30);
         }
-
-     h1,h3,h4 {
-            color: rgb(208,178,108)
+ h1,h3,h4 {
+        color: rgb(208,178,108)
 
         }
+form,label {
+    color: black
+}
 
-</style>
+/*
+typography
+*/
+
+body {
+    font-family: "Karla",sans-serif;
+}
+
+
+
