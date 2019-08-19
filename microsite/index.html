@@ -5,7 +5,8 @@
      
      <title>Dankeschön!</title>
      <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
-     
+     <meta charset="UTF-8">
+
      <style>
          * {
             margin: 0;
@@ -13,63 +14,142 @@
             box-sizing: border-box;
             scroll-behavior: smooth;
          }
-         .section {
-             background-color: aliceblue; height: 100vh;
+         section {
+             height: 100vh;
+             justify-content: center
          }
          
          #hello {
-             background-color: crimson;height: 100vh;
+             
              background-image: url(img/sea.jpg);background-size: cover; width: 100%;
-             background-position: center
+             background-position: center;
+             
          }
          
          #thanks {
-             background-color: aqua;height: 100vh;
+            
              background-image: url(img/sky.jpg); background-size: cover; width: 100%; background-position: center
+         }
+         
+         #bye {
+             background-color: rgb(208,178,108);
          }
          
          body {
              font-family: "Karla", sans-serif;
          }
          
-         footer {
+         h2 {
+             text-align: center; font-size: 5em; padding-top: 48vh; color: rgba(242,242,242,0.4); 
+         }
+         
+         h3 {
+             text-align: center; font-size: 5em; padding-top: 48vh; color: rgb(242, 242, 242)
+         }
              
+         
+         h4 {
+             text-align: center; font-size: 40px; padding-top: ; color:rgb(77, 77, 77)
+         }
+         
+         footer {
+             text-align: center; height: 45vh; background-color:hsl(140, 100%, 10%); padding-top: 30px;
          }
         
+        
+         .wrapper {
+            height: 100vh;
+            overflow-x: hidden;
+            overflow-y: auto;
+            perspective: 2px;
+
+         }
+        
+
+         #picture {
+        
+
+         }
+         
+         a {
+             color: white
+         }
          
          
+         .scroll::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            transform: translateZ(-1px) scale(1.5);
+            background-size: 100%;
+            z-index: -1;
+           
+        }
          
+          .bokeh1::after {
+            background-image:url(img/sea.jpg);
+        }
+
+        .bokeh2::after {
+            background-image:url(img/sky.jpg);
+        }
          
-         
-         
-         
+         .section {
+             
+            position: relative;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center
+         }
+           
+
+
+
          
          
      </style>
  </head>   
     
- <body>
+ <body class="wrapper">
     
      <header>
          
      </header>
-     <main>
-         <section id="hello" class="1">
-             <h2>section 1</h2>
+     <main >
+         <section id="hello" class="1" class="section scroll bokeh1">
+           
+            <h2>Guten Morgen<br>🙂</h2>
+            
+         </section>
+         
+         <section id="bye" class="1">
+           
+            <h3>Dankeschön!</h3><br>
+            <h4>Für die super Gelegenheit in neue digitale Berufe reinschauen zu dürfen.</h4>
              
          </section>
          
-         <section id="thanks" class="1">
-             <h2>section 2</h2>
-             
+         <section id="thanks" class="1" class="section scroll bokeh2" >
+            
+            <h2>Auf Wiedersehen!</h2>
+        
          </section>
          
      </main>
+   
      <footer>
+        
+         <img src="img/love.jpg" alt="My most gorgeous wife and me." id="picture" style="width:100px">
          <p>
-             &copy;Friedrich
+             <a>&copy;Friedrich</a>
          </p>
+         
      </footer>
+    
      
  </body>   
   
