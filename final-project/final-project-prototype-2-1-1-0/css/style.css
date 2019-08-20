@@ -1,0 +1,25 @@
+*
+/{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+#mobile-nav ul li {
+     text-align: center; display: block; text-decoration: none;
+    
+}
+
+#desktop-nav ul li {
+    text-align: center; display: block; text-decoration: none;
+}
+
+header {
+    background-image:url(C:\Users\DCI\Documents\clemens-html-css\herrclemensfriedrich.github.io\herrclemensfriedrich.github.io\final-project\final-project-prototype-2-1-1-0\img\laptop.jpg)
+}

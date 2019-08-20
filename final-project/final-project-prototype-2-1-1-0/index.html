@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+ <head>
+    
+     <title>Mobile version try</title>
+     <link rel="stylesheet" href="css/style.css">
+     
+     <title></title>
+     <style>
+         
+         body {
+             background-color: azure; font-size: 2em;
+         }
+         
+         #desktop-nav {
+             display: none;
+         }
+         
+         
+         
+         
+         
+/*----------------------------------------------------
+         Responsive Design
+------------------------------------------------------
+*/ 
+         @media only screen and (min-width: 600px) {
+             #desktop-nav {
+             display: inline-block; text-transform: uppercase
+         }
+             #mobile-nav {
+                 display: block;
+             }
+             
+             #mobile-nav ul li {
+                 text-align: center;
+             }
+             
+             body {
+             background-color: lightgray; font-size: 1em;
+         }
+             
+             @media only screen and (max-width: 1920px) {
+               #mobile-nav {
+                 display: none;
+             }
+                #mobile-nav ul li {
+                 display: none;
+             }
+             }
+     
+     </style>
+ </head>   
+    
+ <body>
+    
+     <header>
+         <h1>Good morning</h1>
+         <nav id="mobile-nav">
+             <ul>
+                 <a href="https://herrclemensfriedrich.github.io/my-first-website/" target="_blank"><li>My first website</li></a>
+                 <a href="https://herrclemensfriedrich.github.io/final-project/final-project-prototype-1-1-1-0/outline" target="_blank"><li>Final Project Outline</li></a>
+                 <a href="https://herrclemensfriedrich.github.io/final-project/final-project-prototype-1-1-1-0/" target="_blank"><li>Final Project Landing Page</li></a>
+                 <a href="https://herrclemensfriedrich.github.io/microsite/" target="_blank"><li>Microsite</li></a>
+             </ul>
+         </nav>
+         <nav id="desktop-nav">
+             <ul>
+                 <a href="https://herrclemensfriedrich.github.io/my-first-website/" target="_blank"><li>My first website</li></a>
+                 <a href="https://herrclemensfriedrich.github.io/final-project/final-project-prototype-1-1-1-0/outline" target="_blank"><li>Final Project Outline</li></a>
+                 <a href="https://herrclemensfriedrich.github.io/final-project/final-project-prototype-1-1-1-0/" target="_blank"><li>Final Project Landing Page</li></a>
+                 <a href="https://herrclemensfriedrich.github.io/microsite/" target="_blank"><li>Microsite</li></a>
+             </ul>
+         </nav>
+     </header>
+<!--     <section>
+         Section 1
+     </section>
+    <aside>aside 1</aside>
+     <footer>
+         <p>
+             &copy;Friedrich
+         </p>
+     </footer>
+  -->   
+ </body>   
+  
+</html>
