@@ -10,13 +10,19 @@
      <style>
          
          body {
-             background-color: azure; font-size: 2em;
+             background-color:rgb(230,230,230); font-size: 2em;
          }
          
          #desktop-nav {
              display: none;
          }
          
+         #burger-icon {
+             width: 40px; height: 40px; background-color: black;
+         }
+         iframe {
+            margin-left: 10%; border: none; color: inherit; margin-bottom: 10%;
+         }
          
          
          
@@ -29,17 +35,19 @@
              #desktop-nav {
              display: inline-block; text-transform: uppercase
          }
-             #mobile-nav {
-                 display: block;
+             #mobile-nav,
+             #burger-icon {
+                 display: none;
              }
              
              #mobile-nav ul li {
-                 text-align: center;
+                 text-align: center; position: fixed;
              }
              
              body {
              background-color: lightgray; font-size: 1em;
-         }
+             }
+             
              
              @media only screen and (max-width: 1920px) {
                #mobile-nav {
@@ -57,33 +65,46 @@
     
      <header>
          <h1>Good morning</h1>
+         <div id="burger-icon"></div>
          <nav id="mobile-nav">
              <ul>
-                 <a href="https://herrclemensfriedrich.github.io/my-first-website/" target="_blank"><li>My first website</li></a>
-                 <a href="https://herrclemensfriedrich.github.io/final-project/final-project-prototype-1-1-1-0/outline" target="_blank"><li>Final Project Outline</li></a>
-                 <a href="https://herrclemensfriedrich.github.io/final-project/final-project-prototype-1-1-1-0/" target="_blank"><li>Final Project Landing Page</li></a>
-                 <a href="https://herrclemensfriedrich.github.io/microsite/" target="_blank"><li>Microsite</li></a>
+                 <li><a href="#">Top</a></li>
+                 <li><a href="#section-1">My first website</a></li>
+                 <li><a href="#section-2">Final Project Outline</a></li>
+                 <li><a href="#section-3">Final Project Landing Page</a></li>
+                 <li><a href="#section-4">Microsite</a></li>
              </ul>
          </nav>
          <nav id="desktop-nav">
              <ul>
-                 <a href="https://herrclemensfriedrich.github.io/my-first-website/" target="_blank"><li>My first website</li></a>
-                 <a href="https://herrclemensfriedrich.github.io/final-project/final-project-prototype-1-1-1-0/outline" target="_blank"><li>Final Project Outline</li></a>
-                 <a href="https://herrclemensfriedrich.github.io/final-project/final-project-prototype-1-1-1-0/" target="_blank"><li>Final Project Landing Page</li></a>
-                 <a href="https://herrclemensfriedrich.github.io/microsite/" target="_blank"><li>Microsite</li></a>
+                 <li><a href="#">Top</a></li>
+                 <li><a href="#section-1">My first website</a></li>
+                 <li><a href="#section-2">Final Project Outline</a></li>
+                 <li><a href="#section-3">Final Project Landing Page</a></li>
+                 <li><a href="#section-4">Microsite</a></li>
              </ul>
          </nav>
      </header>
-<!--     <section>
-         Section 1
+     <main>
+         <section id="section-1">
+         <iframe src="https://herrclemensfriedrich.github.io/my-first-website/" height="200" width="80%"></iframe>
      </section>
-    <aside>aside 1</aside>
+         <section id="section-2">
+         <iframe src="https://herrclemensfriedrich.github.io/final-project/final-project-prototype-1-1-1-0/outline" height="200" width="80%"></iframe>
+     </section>
+         <section id="section-3">
+         <iframe src="https://herrclemensfriedrich.github.io/final-project/final-project-prototype-1-1-1-0/" height="200" width="80%"></iframe>
+     </section>
+         <section id="section-4">
+         <iframe src="https://herrclemensfriedrich.github.io/microsite/" height="200" width="80%"></iframe>
+     </section>
+     </main>
      <footer>
          <p>
              &copy;Friedrich
          </p>
      </footer>
-  -->   
+  
  </body>   
   
 </html>

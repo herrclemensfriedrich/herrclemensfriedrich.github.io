@@ -1,5 +1,5 @@
 *
-/{
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,8 +11,12 @@ body {
     font-family: 'Lexend Deca', sans-serif;
 }
 
+#mobile-nav ul {
+     list-style-type: none;
+}
+
 #mobile-nav ul li {
-     text-align: center; display: block; text-decoration: none;
+     text-align: center; display: inline-block; text-decoration: none; width: 15%; font-size: 0.5em; overflow-y: hidden; background-color: rgba(230,240,240,0.8)
     
 }
 
@@ -21,5 +25,5 @@ body {
 }
 
 header {
-    background-image:url(C:\Users\DCI\Documents\clemens-html-css\herrclemensfriedrich.github.io\herrclemensfriedrich.github.io\final-project\final-project-prototype-2-1-1-0\img\laptop.jpg)
+    background-image:url(https://herrclemensfriedrich.github.io/final-project/final-project-prototype-2-1-1-0/img/sky.jpg)
 }
