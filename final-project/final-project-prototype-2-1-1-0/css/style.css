@@ -8,28 +8,87 @@
 @import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
 
 body {
-    font-family: 'Lexend Deca', sans-serif;padding-top: 13vw;
+    font-family: 'Lexend Deca', sans-serif;
+    padding-top: 1vw;
+    background-color: rgba(121, 166, 210, 0.2);
+}
+
+a {
+    text-decoration: none;
 }
 
 nav a:hover {
-    color: black;background-color: white;
+    color: black;background-color: skyblue;
+}
+
+#mobile-nav ul li a {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px; 
+    font-size: 1em;
+}
+
+
+#mobile-nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 195px;
+    padding-top: 5px;
+    overflow-y: hidden;
+    background-color: rgba(230,240,240,0.8);
+    text-align: left;
 }
 
 #mobile-nav ul {
-     list-style-type: none;
 }
 
-#mobile-nav ul li {
-     text-align: center; display: inline-block; text-decoration: none; width: 15%; font-size: 0.5em; ; background-color: rgba(230,240,240,0.8);position: fixed; width: 50%;top:0;height: 40px;
-    padding-top: 5px;
 
+#desktop-nav {
+    position: fixed;
+    top: 0;
     
 }
 
-#desktop-nav ul li {
-    text-align: center; display: flex; text-decoration: none;
+#desktop-nav ul {
+    margin-left: 0;
+    list-style-type:none;
+    display: flex;
+    margin-right: 3px;
+    font-size: 0.8em;
+    padding: 3px;
+    background-color: rgba(0,0,0,0.7); color:white;
+    
+}
+
+#desktop-nav ul li a {
+    margin-right: 16px;
+    color: white;
+   
+    
 }
 
 header {
-    background-image:url(https://herrclemensfriedrich.github.io/final-project/final-project-prototype-2-1-1-0/img/sky.jpg)
+    background-image:url(https://herrclemensfriedrich.github.io/final-project/final-project-prototype-2-1-1-0/img/sky.jpg);
+    color:white;
+    text-align: center;
+    padding: 10%;
+    margin-bottom: 5%
+    
 }
+
+#burger-icon {
+    position: fixed;
+    left: 0;
+    top:0;
+    width: 100%;
+    background-color: darkslategray;
+    margin-left: 100%;
+    padding: 20px 20px 20px 0px;
+}
+
+#burger icon div {
+    padding: 20px;
+}
+
+

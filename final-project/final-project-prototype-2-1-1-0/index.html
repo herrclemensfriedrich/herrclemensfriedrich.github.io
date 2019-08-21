@@ -11,7 +11,7 @@
      <style>
          
          body {
-             background-color:rgb(230,230,230); font-size: 2em;
+             font-size: 2em;
          }
          
          #desktop-nav {
@@ -19,19 +19,36 @@
          }
          
          #burger-icon {
-             
+            margin: 0 20px;
+            
          }
          
          #burger-icon div {
-             width: 40px; height: 20px; background-color: black; border-radius: 20px;
+             width: 30px;
+             height: 5px;
+             background-color: rgba(150,160,170,0.9);
+             border-radius: 20px;
+             margin: 3px 0 0 0;
+             
+             
+         }
+         
+         #burger-icon:hover div {
+              background-color: rgb(160,170,180);
          }
          
          #burger-icon:hover {
-             background-color: white
+             cursor: pointer;
+             background-color: skyblue;
          }
          iframe {
             margin-left: 10%; border: none; color: inherit; margin-bottom: 10%;
          }
+         
+         footer {
+             text-align: right
+         }
+         
          
          
          
@@ -42,29 +59,27 @@
 */ 
          @media only screen and (min-width: 600px) {
              #desktop-nav {
-             display: inline-block; text-transform: uppercase
+             display: block; text-transform: uppercase; 
          }
              #mobile-nav,
              #burger-icon {
                  display: none;
              }
-             
+
              #mobile-nav ul li {
-                 text-align: center; position: fixed;
+                 text-align: center;
+                 position: fixed;
              }
              
              body {
-             background-color: lightgray; font-size: 1em;
+              font-size: 1em;
              }
              
              
              @media only screen and (max-width: 1920px) {
-               #mobile-nav {
+               #mobile-nav,
+               #mobile-nav ul li {
                  display: none;
-             }
-                #mobile-nav ul li {
-                 display: none;
-             }
              }
      
      </style>
@@ -72,9 +87,13 @@
     
  <body>
     
-     <header>
+    <header>
          <h1>Good morning</h1>
-         <div id="burger-icon"></div>
+         <div id="burger-icon">
+             <div></div>
+             <div></div>
+             <div></div>
+         </div>
          <nav id="mobile-nav">
              <ul>
                  <li><a href="#">Top</a></li>
@@ -94,17 +113,17 @@
              </ul>
          </nav>
      </header>
-     <main>
-         <section id="section-1">
+    <main>
+     <section id="section-1">
          <iframe src="https://herrclemensfriedrich.github.io/my-first-website/" height="200" width="80%"></iframe>
      </section>
-         <section id="section-2">
+     <section id="section-2">
          <iframe src="https://herrclemensfriedrich.github.io/final-project/final-project-prototype-1-1-1-0/outline" height="200" width="80%"></iframe>
      </section>
-         <section id="section-3">
+     <section id="section-3">
          <iframe src="https://herrclemensfriedrich.github.io/final-project/final-project-prototype-1-1-1-0/" height="200" width="80%"></iframe>
      </section>
-         <section id="section-4">
+     <section id="section-4">
          <iframe src="https://herrclemensfriedrich.github.io/microsite/" height="200" width="80%"></iframe>
      </section>
      </main>
