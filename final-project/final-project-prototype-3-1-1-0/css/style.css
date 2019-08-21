@@ -1,4 +1,4 @@
-/*
+/*---------------------------------------
 Reset
 */
 *
@@ -9,8 +9,9 @@ Reset
 }
  @import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
 
-/*
+/*---------------------------------------
 navigation
+--------------------------------------
 */
 
 .main-nav ol {
@@ -35,8 +36,9 @@ navigation
 }
 
 
-/*
+/*-----------------------------------------
 Layout
+------------------------------------------
 */
 
 article {
@@ -53,17 +55,14 @@ header {
     margin-right: auto;
 }
 footer {
+     
+     padding-top: 2em;
+     text-align: center;
+     width: 100%;
     padding-left: 1.5em;
     padding-bottom: 1.5em;
     margin-left: auto;
     margin-right: auto;
-}
-footer {
-     background-image: url(https://herrclemensfriedrich.github.io/final-project/final-project-prototype-3-1-1-0/img/workspace.jpg);
-     background-size: 100%;
-     padding-top: 2em;
-     text-align: center;
-     width: 100%;
      
             
         }
@@ -98,36 +97,55 @@ h4 {
 }
 button.footer {
     background-color: transparent;
-    color:rgba(255,255,255,0.65);
     text-transform: uppercase;
     right:20px;
     border: none;
     padding: 10px;
-    position: absolute
-    
+    position: absolute;
+}
+button.footer:hover {
+    color: white;
+    background-color: rgb(208,178,108);
+    cursor: pointer;
+}
+#privacy {
+    margin-right: 17%;
+}
+#terms {
+    margin-right: 10%;
 }
 
-/*
+
+/*-----------------------------------------
 Pictures
+-----------------------------------------
 */
 header {
     background-image: url(https://herrclemensfriedrich.github.io/final-project/final-project-prototype-3-1-1-0/img/laptop.jpg);
     background-size: 100%;
 }
+footer {
+    background-image: url(https://herrclemensfriedrich.github.io/final-project/final-project-prototype-3-1-1-0/img/workspace.jpg);
+    background-size: 100%;
+}
+body {
+    background-image:url()
+}
 
 
 
 
 
 
-/*
+/*-----------------------------------------
 color
+------------------------------------------
 */
 
  body {
         color: whitesmoke;background-color: rgb(20,30,30);
         }
- h1,h3,h4 {
+ h1,h3,h4,button {
         color: rgb(208,178,108)
 
         }
