@@ -220,7 +220,7 @@ Responsive Design
 */
 
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 600px) {
     body {
         font-size:1.5em;
     }
@@ -241,7 +241,6 @@ Responsive Design
     footer h4 {
         text-align: center;
         width: 50%;
-        padding-bottom: 5%;
     }
     #terms {
         margin-top: -5em;
