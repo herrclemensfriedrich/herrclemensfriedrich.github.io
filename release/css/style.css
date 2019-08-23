@@ -77,7 +77,9 @@ div.email {
     margin:auto;
     margin-top:10em;
     margin-bottom: 3em;
-    
+}
+div.email a {
+    color: #f2f2f2; font-size: 0.5em;
 }
 div.social-media1 {
     background-color: transparent;
@@ -237,7 +239,9 @@ Responsive Design
         top:50em; margin-right: -95%;
     }
     footer h4 {
-        text-align: center; width: 50%
+        text-align: center;
+        width: 50%;
+        padding-bottom: 5%;
     }
     #terms {
         margin-top: -5em;
