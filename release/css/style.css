@@ -189,13 +189,13 @@ div#background-img {
 }
 div#background-img2 {
     background-image: url(https://herrclemensfriedrich.github.io/release/img/room.jpg);
-    padding:12em;
-    background-size: 150%;
+    padding:17em;
+    background-size: 200%;
     background-position: right;
     background-repeat:no-repeat;
     position: absolute;
     right: 0;
-    margin-right:-3%;
+    margin-right:-17%;
     top:0;
     margin-top: 25%;
     border-radius: 50%;
@@ -233,6 +233,9 @@ Responsive Design
         margin-top: 3em;top:15em;
         margin-left: -35%;
     }
+    div#background-img2 {
+        top:50em; margin-right: -95%;
+    }
     footer h4 {
         text-align: center; width: 50%
     }
@@ -244,13 +247,19 @@ Responsive Design
         margin-top: -2em;
     }
     article.main {
-        padding-top: 4em;
+        padding-top: 2em;
     }
     section.text {
         font-size: 1.4em;
     }
     section.img {
-        width:10%; margin-left: -80%;
+        width:10%; 
+        margin-left: -80%;
+    }
+    article.main p {
+        margin-left: -50%; 
+        margin-right: 50%;
+        margin-bottom: -60%;
     }
 }
 
