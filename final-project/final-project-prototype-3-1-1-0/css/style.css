@@ -40,10 +40,13 @@ navigation
 Layout
 ------------------------------------------
 */
-
 article {
     line-height: 1.5em;
     margin: 1em 20px;
+}
+
+article.main {
+    margin-left: 35%;
 }
 
 header {
@@ -103,9 +106,6 @@ h4 {
     width: 35%;
     text-align-last: center;
 }
-#terms, #privacy {
-    text-decoration: none;
-}
 button.footer {
     background-color: transparent;
     text-transform: uppercase;
@@ -114,8 +114,13 @@ button.footer {
     padding: 10px;
     position: absolute;
 }
-button.footer:hover {
+a:link, a:visited{
+    color: rgb(208,178,108); text-decoration: none;
+}
+a:hover {
     color: white;
+}
+button.footer:hover {
     background-color: rgb(208,178,108);
     cursor: pointer;
 }
@@ -130,7 +135,7 @@ section.text {
     text-align: left;
     margin-left: 60%;
     top:0;
-    margin-top: 10%;
+    margin-top: 15%;
     font-size: 2em;
 }
 section.legal {
@@ -149,17 +154,17 @@ Pictures
 -----------------------------------------
 */
 header {
-    background-image:url(laptop.jpg);
+    background-image:url(https://herrclemensfriedrich.github.io/final-project/final-project-prototype-3-1-1-0/img/laptop.jpg);
 
     background-size: 100%;
 }
 footer {
-    background-image:url(workspace.jpg);
+    background-image:url(https://herrclemensfriedrich.github.io/final-project/final-project-prototype-3-1-1-0/img/workspace.jpg);
     background-size: 100%;
 }
 div#background-img {
     padding:10em;
-    background-image:url(business-suit.jpg);
+    background-image:url(https://herrclemensfriedrich.github.io/final-project/final-project-prototype-3-1-1-0/img/business-suit.jpg);
     background-size: 25vw;
     background-position: left;
     background-repeat:no-repeat;
@@ -170,7 +175,7 @@ div#background-img {
     margin-top: 15%;
 }
 section.img {
-    background-image:url(berlin.jpg);
+    background-image:url(https://herrclemensfriedrich.github.io/final-project/final-project-prototype-3-1-1-0/img/berlin.jpg);
     padding: 50vh;
     background-size: 150%;
     background-repeat: no-repeat;
