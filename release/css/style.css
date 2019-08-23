@@ -187,6 +187,21 @@ div#background-img {
     z-index: -1;
     opacity: 0.4;
 }
+div#background-img2 {
+    background-image: url(https://herrclemensfriedrich.github.io/release/img/room.jpg);
+    padding:12em;
+    background-size: 150%;
+    background-position: right;
+    background-repeat:no-repeat;
+    position: absolute;
+    right: 0;
+    margin-right:-3%;
+    top:0;
+    margin-top: 25%;
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 0.4;
+}
 section.img {
     background-image:url(https://herrclemensfriedrich.github.io/final-project/final-project-prototype-3-1-1-0/img/berlin.jpg);
     padding: 50vh;
