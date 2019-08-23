@@ -1,0 +1,269 @@
+/*---------------------------------------
+Reset
+*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ @import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+
+/*---------------------------------------
+navigation
+--------------------------------------
+*/
+
+.main-nav ol {
+     text-align: center
+}
+
+.main-nav ol li {
+    text-transform: uppercase;
+    display:inline-block;
+    padding: 2px 8px;
+    width: 180px; height: 25px;
+    text-decoration: none;
+    color: rgb(128,0,32);
+    background-color: grey;
+    font-weight: 600;
+    
+}
+
+.main-nav ol li:hover {
+    color: white
+
+}
+
+
+/*-----------------------------------------
+Layout
+------------------------------------------
+*/
+article {
+    line-height: 1.5em;
+    margin: 1em 20px;
+}
+
+article.main {
+    margin-left: 35%;
+}
+
+header {
+    padding-top: 2em;
+    text-align: center;
+    padding-left: 1.5em;
+    padding-bottom: 3em;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+     
+     padding-top: 2em;
+     text-align: center;
+     width: 100%;
+    padding-left: 1.5em;
+    padding-bottom: 1.5em;
+    margin-left: auto;
+    margin-right: auto;   
+        }
+div.email {
+    border-radius: 8px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 60%;
+    text-align: center;
+    margin:auto;
+    margin-top:10em;
+    margin-bottom: 3em;
+    
+}
+div.social-media1 {
+    background-color: transparent;
+    display: inline-block;
+    width: 15%; 
+    font-size: 180%;
+    position:absolute;
+    top: 15px;
+    right: 0;
+    
+}
+div.social-media2 {
+    background-color: transparent;
+    display: inline-block;
+    width: 35%; 
+    font-size: 180%;
+    bottom: 0;
+}
+div.social-media3 {
+    background-color: transparent;
+    display: inline-block;
+    padding-left: 30px;
+}
+div.social-media2:hover {
+    cursor:pointer
+}
+div.social-media1:hover {
+    cursor:pointer
+}
+div.social-media3:hover {
+    cursor:pointer
+}
+h4 {
+    display:flex;
+    text-align: left;
+    width: 35%;
+    text-align-last: center;
+}
+button.footer {
+    background-color: transparent;
+    text-transform: uppercase;
+    right:20px;
+    border: none;
+    padding: 10px;
+    position: absolute;
+}
+a:link, a:visited{
+    color: rgb(208,178,108); text-decoration: none;
+}
+a:hover {
+    color: white;
+}
+button.footer:hover {
+    background-color: rgb(208,178,108);
+    cursor: pointer;
+}
+#privacy {
+    margin-right: 17%;
+}
+#terms {
+    margin-right: 10%;
+}
+section.text {
+    position: absolute;
+    text-align: left;
+    margin-left: 55%;
+    top:0;
+    margin-top: 15%;
+    font-size: 2em;
+}
+section.legal {
+    padding: 2em;
+    margin:2em;
+    
+}
+section.privacy {
+    padding: 2em;
+    margin:2em;
+    
+}
+
+/*-----------------------------------------
+Pictures
+-----------------------------------------
+*/
+header {
+    background-image:url(https://herrclemensfriedrich.github.io/final-project/final-project-prototype-3-1-1-0/img/laptop.jpg);
+
+    background-size: 100%;
+}
+footer {
+    background-image:url(https://herrclemensfriedrich.github.io/final-project/final-project-prototype-3-1-1-0/img/workspace.jpg);
+    background-size: 100%;
+}
+div#background-img {
+    padding:12em;
+    background-image:url(https://herrclemensfriedrich.github.io/final-project/final-project-prototype-3-1-1-0/img/business-suit.jpg);
+    background-size: 150%;
+    background-position: left;
+    background-repeat:no-repeat;
+    position: absolute;
+    left: 0;
+    margin-left:-3% ;
+    top:0;
+    margin-top: 15%;
+    border-radius: 50%;
+    z-index: -1;
+}
+section.img {
+    background-image:url(https://herrclemensfriedrich.github.io/final-project/final-project-prototype-3-1-1-0/img/berlin.jpg);
+    padding: 50vh;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    margin-right: 50%;
+}
+
+/*-----------------------------------------
+Responsive Design
+------------------------------------------
+*/
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size:1.5em;
+    }
+    div.social-media1 {
+        width:50%;
+        margin-top: 0;
+    }
+    h1 {
+        padding-top: 1em;
+    }
+    div#background-img {
+        margin-top: 3em;top:15em;
+        margin-left: -35%;
+    }
+    footer h4 {
+        text-align: center; width: 50%
+    }
+    #terms {
+        margin-top: -5em;
+    }
+    #privacy {
+        margin-right: 10%;
+        margin-top: -2em;
+    }
+    article.main {
+        padding-top: 4em;
+    }
+    section.text {
+        font-size: 1.4em;
+    }
+    section.img {
+        width:10%; margin-left: -80%;
+    }
+}
+
+@media only screen and (max-width: 1920px) {
+    
+}
+
+/*-----------------------------------------
+color
+------------------------------------------
+*/
+
+ body {
+        color: whitesmoke;background-color: rgb(20,30,30);
+        }
+ h1,h3,h4,button {
+        color: rgb(208,178,108)
+
+        }
+form,label {
+    color: black
+}
+
+/*
+typography
+*/
+
+body {
+    font-family: "Karla",sans-serif;
+}
+
+
+
