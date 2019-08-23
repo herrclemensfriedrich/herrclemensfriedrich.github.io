@@ -47,6 +47,7 @@ article {
 
 article.main {
     margin-left: 35%;
+    font-size: 1.4em;
 }
 
 header {
@@ -184,6 +185,7 @@ div#background-img {
     margin-top: 15%;
     border-radius: 50%;
     z-index: -1;
+    opacity: 0.4;
 }
 section.img {
     background-image:url(https://herrclemensfriedrich.github.io/final-project/final-project-prototype-3-1-1-0/img/berlin.jpg);
