@@ -166,17 +166,17 @@ Pictures
 -----------------------------------------
 */
 header {
-    background-image:url(https://herrclemensfriedrich.github.io/final-project/final-project-prototype-3-1-1-0/img/laptop.jpg);
+    background-image:url(https://herrclemensfriedrich.github.io/release/img/laptop.jpg);
 
     background-size: 100%;
 }
 footer {
-    background-image:url(https://herrclemensfriedrich.github.io/final-project/final-project-prototype-3-1-1-0/img/workspace.jpg);
+    background-image:url(https://herrclemensfriedrich.github.io/release/img/workspace.jpg);
     background-size: 100%;
 }
 div#background-img {
     padding:12em;
-    background-image:url(https://herrclemensfriedrich.github.io/final-project/final-project-prototype-3-1-1-0/img/business-suit.jpg);
+    background-image:url(https://herrclemensfriedrich.github.io/release/img/business-suit.jpg);
     background-size: 150%;
     background-position: left;
     background-repeat:no-repeat;
@@ -205,7 +205,7 @@ div#background-img2 {
     opacity: 0.4;
 }
 section.img {
-    background-image:url(https://herrclemensfriedrich.github.io/final-project/final-project-prototype-3-1-1-0/img/berlin.jpg);
+    background-image:url(https://herrclemensfriedrich.github.io/release/img/berlin.jpg);
     padding: 50vh;
     background-size: 150%;
     background-repeat: no-repeat;
