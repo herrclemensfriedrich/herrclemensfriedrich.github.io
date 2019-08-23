@@ -220,7 +220,7 @@ Responsive Design
 */
 
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 1100px) {
     body {
         font-size:1.5em;
     }
@@ -265,11 +265,11 @@ Responsive Design
         margin-right: 50%;
         margin-bottom: -60%;
     }
+    div.email {
+        margin-top: 40%
+    }
 }
 
-@media only screen and (max-width: 1920px) {
-    
-}
 
 /*-----------------------------------------
 color
